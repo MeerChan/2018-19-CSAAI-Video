@@ -2,6 +2,12 @@ function main()
 {
   console.log("Video 02...")
 
+  cartel = document.getElementById("cartel")
+  reloj = document.getElementById("reloj")
+
+
+
+
   videogrande = document.getElementById("videogrande")
   videogrande.width = 800;
   videogrande.height= 400;
@@ -63,13 +69,16 @@ function main()
   b1.onclick = () => {
     videogrande.src = video1.src;
     videogrande.currentTime = video1.currentTime;
+    cartel.innerHTML = "1";
   }
   b2.onclick = () => {
     videogrande.src = video2.src;
     videogrande.currentTime = video2.currentTime;
+    cartel.innerHTML = "2";
   }
   b3.onclick = () => {
     videogrande.src = video3.src;
     videogrande.currentTime = video3.currentTime;
+    cartel.innerHTML = "3";
   }
 }
