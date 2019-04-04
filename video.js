@@ -14,12 +14,12 @@ function main()
   video1.height= 100;
   video1.src ="https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente1.mp4"
   video1.onmouseover = () => {
-    console.log("Raton encima")
-  //  video1.unmuted
+    console.log("1 in")
+    video1.muted= false;
   }
   video1.onmouseout = () => {
-    console.log("raton fuera")
-    // vide1.muted
+    console.log("1 out")
+    video1.muted= true;
   }
 
 
@@ -30,12 +30,12 @@ function main()
   video2.height= 100;
   video2.src ="https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente2.mp4"
   video2.onmouseover = () => {
-    console.log("Raton encima")
-  //  video1.unmuted
+    console.log("2 in")
+    video2.muted= false;
   }
   video2.onmouseout = () => {
-    console.log("raton fuera")
-    // vide1.muted
+    console.log("2 out")
+    video2.muted= true;
   }
 
 
@@ -46,12 +46,12 @@ function main()
   video3.height= 100;
   video3.src ="https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente3.mp4"
   video3.onmouseover = () => {
-    console.log("Raton encima")
-  //  video1.unmuted
+    console.log("3 in")
+    video3.muted= false;
   }
   video3.onmouseout = () => {
-    console.log("raton fuera")
-    // vide1.muted
+    console.log("3 out")
+    video3.muted= true;
   }
 
 
